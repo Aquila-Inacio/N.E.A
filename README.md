@@ -35,7 +35,7 @@ docker ps
 # Acesse SEU_IP_OU_HOSTNAME:8081 para ter acesso a aplicação
 ```
 
-## Containers
+## Containers Docker
 
 ### reserv-app (SEU_IP_OU_HOSTNAME:8081)
 
@@ -78,3 +78,35 @@ public static $groupSchema = [
 - `keys.json`
 
 Inclua esse arquivo criado pela Google Cloud Platform para integração com Google Agenda.
+
+## Algumas telas de exemplo
+
+### Tela de Cronograma
+
+![](https://ailtonbsj.github.io/portfolio/projects/crede-reservation/0.png)
+
+### Tela de Atividades
+
+![](https://ailtonbsj.github.io/portfolio/projects/crede-reservation/1.png)
+
+### Tela de Permissões e Grupos de Usuário
+
+![](https://ailtonbsj.github.io/portfolio/projects/crede-reservation/2.png)
+
+### Tela de Login Responsivo
+
+![](https://ailtonbsj.github.io/portfolio/projects/crede-reservation/3.png)
+
+## Diagramas UML feitos no Umbrello
+
+### Modelagem do Banco de Dados
+
+![](umbrello-model/database.png)
+
+### Modelagem das principais classes da API
+
+![](umbrello-model/orkidea-framework/api.png)
+
+### Modelagem de algumas classes no Frontend
+
+![](umbrello-model/orkidea-framework/front.png)
