@@ -25,7 +25,7 @@ npm i
 composer i
 
 # Cria containers e serviços docker
-docker-compose up -d --build
+docker compose up -d --build
 
 # Verifique se os containers reserv-app1, adminer1 e reserv-db1 estão up
 docker ps
