@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "assistente-de-eventos",
+  "private_key_id": "cebd215087f6db6d4e7ff40f30964362360d1347",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC8XotuODnp5yrF\nO8pLDaRIyPOnpjZJYO2yW3t1Ar/FJcEeo3F3Ii1xku7LduGxwg5ucaCrcsduLJyB\n/YutzNo5jWkKuYRrIabr9fqtrVyRholxDMZv2dDnfqo7uv8LrZEW+e60S0NXT/Ni\nI0R9O6PB2qbUYIjrVyP6AT75KgWAhxX9cjfBrnn93zVrX6MxnMaz2IEISHSpPsBr\ni0mRkh1OvtQT4lR5CGDSdnXVw+LIS8DrTpD7sA/MKPMYsk576th+uVia0jBVnW6i\ngJKFIOBGlXvHJWgQyPcw8+l8ZGg+Oeg685qWuofGxD9bBibOKEs+sPD1vZgKhiJJ\nLswfkHqhAgMBAAECggEAI3H28qqJ20WweqShkDXk7/1APA++r1gZ4jHsrTvzMfnE\nuSswMqavvmtTm92m4ngNlyKyhRB4Dnc+jAdVvUKK3cGKPoZiMHaInmYO4Zd5j7it\nLCSnQmzOLoFbLxok2+GxJ42oKSzwYwGcXp8cSCRs0BGAyv3PRdmD34tUejY6CtEN\nMrE7DbQCn0/n7SNCX+ig0bFrPFthu/XTQ4MeHsQIduL6rzNhv3ccdwey0DsmT2wy\nwvBfrXpbntULXl1hUXB1vtR7LylJNtaRXszd4VVgYMX8XCfJVJNf9lMsbZ2G7XCj\nFXd8xhorzyrLjXt3V/wFt3ylAvdFtZxbIoKWwl2nsQKBgQD5sxGqNrq24QdqG8Qd\nRRErOhm2JXYmGe194g9YAPElwxldjRZHeGRyg6OFZniVQpGnu/AwiGFm/lak01rb\n118SFJyAzRDz87zWwvv0f8PJow1h2Kn5BwpKCJN2IOaaLt/gfWlhmNgtCYlqsiNA\nXwjdV9t0/9GHerL/UeigEkZ6fwKBgQDBH1BoXWKGgqz2olQKDTL+KD2RuGs3PYk+\nBnyoNH9FNOKgvyK4fuuXqCrWB9+iqfYrzZH4iLA0Ml1DKAOry8j9UOgSxEdqDK/Y\nx2Qi1TfaT136f+AK453dstDS/5zuoauPiyqvSPh8QgiJluNMVKW/Cb45SnJnJmjA\ngj2X0BU63wKBgQDGsrdQ4sJLuuACkNvLiuVxp4dESaUuBp3U+WnKVt2OdiUeK6JZ\n9zS/Z39dLUCxTcrIViZ5CF2x7pyWBtYbcNPneF1dpVFjP0a7A2gplO4A624/uYDw\neKi4ZwCpFN9MPBbM9h9AmbcUh61BKUYh+D3+nOY2wUdD7uC3ib96eXB6EwKBgQC0\nxn47I2dN6FbGC8/FFPPty3dOx6W9MOIeaG4Z+gJEoyudMy3qLAyWivmGHhquJpDk\nEesZDcJ7KcX5TiSZlQnQbgK/RnJfB/83WfYXUSWWOoMLMNZk+wpUc8VcLaAWFMoG\ndUwAhrrrfdiGCvM8CWSZfiJNeK28dszJn2DOkh69WwKBgQDaOR9dBBuOQg0GYv0i\nrN1J7At3q0dw4DJS8K/fvDtiH3B35Ix1jfoaaGwqIcofs4axfFN2aYo08B6Gbg1x\nBKrbXw3Cu6AxGvFAf5tfSyvABCrCF4aDYZvgD87++LVgVeP/PGB3YHh16x0ukBNF\n81mSMiAeVFgC4Lrbb/LnkxtYrw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "assistente-app@assistente-de-eventos.iam.gserviceaccount.com",
+  "client_id": "106905404973655480176",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/assistente-app%40assistente-de-eventos.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
