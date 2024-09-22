@@ -5,9 +5,9 @@ namespace Orkidea\Core;
 class Group {
 
 	public static $groupSchema = [
-		'SEDUC' => [
-			'CREDE' => [
-				'Escola' => []
+		'Empresa' => [
+			'Setor' => [
+				'Subsetor' => []
 			]
 		]
 	];
