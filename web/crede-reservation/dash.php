@@ -223,10 +223,10 @@ $moduleLoader->loadViews();
   var gid = '<?= $_SESSION['gid'];  ?>';
   var gidH = '<?= Group::getHumanGid($_SESSION['gid']) ?>';
 </script>
-<!-- jQuery via CDN -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- jQuery 3 -->
+<script src="./lib/jquery/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->
 <script src="./lib/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
