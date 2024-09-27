@@ -135,7 +135,7 @@ include 'strings.php';
   <script src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.min.js"></script>
   <!-- Toastr via CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-  
+  <script>
     $(function() {
       $('input').iCheck({
         checkboxClass: 'icheckbox_square-blue',
