@@ -57,17 +57,17 @@ include 'strings.php';
   <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Ionicons -->
   <!-- <link rel="stylesheet" href="./lib/ionicons/css/ionicons.min.css"> -->
   <!-- Theme style -->
   <link rel="stylesheet" href="./dist/css/AdminLTE.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="./lib/icheck/skins/square/blue.css">
-  <!-- Toastr -->
-  <link href="./lib/toastr/toastr.min.css" rel="stylesheet" />
+  <!-- iCheck via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/skins/square/blue.css">
+  <!-- Toastr CSS via CDN-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
