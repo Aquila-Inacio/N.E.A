@@ -126,17 +126,15 @@ include 'strings.php';
     </div>
     <!-- /.login-box-body -->
   </div>
-  <!-- /.login-box -->
-
-  <!-- jQuery 3 -->
-  <script src="./lib/jquery/jquery.min.js"></script>
-  <!-- Bootstrap 3.3.7 -->
-  <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
-  <!-- iCheck -->
-  <script src="./lib/icheck/icheck.min.js"></script>
-  <!-- Toastr -->
-  <script src="./lib/toastr/toastr.min.js"></script>
-  <script>
+  <!-- /.login-box --
+    <!-- jQuery via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Bootstrap VIA CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- iCheck via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.2/icheck.min.js"></script>
+  <!-- Toastr via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
   
     $(function() {
       $('input').iCheck({
