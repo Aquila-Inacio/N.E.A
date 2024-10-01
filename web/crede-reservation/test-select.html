@@ -6,73 +6,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Untitled</title>
         <link rel="author" href="humans.txt">
+        <!-- jQuery 3 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- Select2 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js"></script>
     </head>
     <body>
-	<!-- jQuery 3 -->
-	<script src="./lib/jquery/jquery.min.js"></script>
-  	<!-- Select2 -->
-  	<link rel="stylesheet" href="./lib/select2/css/select2.min.css">
-	<script src="./lib/select2/js/select2.full.min.js"></script>
-	<script src="./controllers/Orkidea/Component.js"></script>
-	<script src="./controllers/Components/SelectInput.js"></script>
-	<script src="./controllers/Components/DynamicSelect.js"></script>
+        <script src="./controllers/Orkidea/Component.js"></script>
+        <script src="./controllers/Components/SelectInput.js"></script>
+        <script src="./controllers/Components/DynamicSelect.js"></script>
 
-<select id="myselect" name="state" style="width: 100%;">
-</select>
+        <select id="myselect" name="state" style="width: 100%;">
+        </select>
 
-<script type="text/javascript">
+        <script type="text/javascript">
+            var ds = new DynamicSelect('#myselect', 'categories', function(item){
+                return [item.name, item.id];
+            });
 
-	var ds = new DynamicSelect('#myselect', 'categories', function(item){
-		return [item.name,item.id];
-	});
+            $(document).ready(function() {
+                // $('#myselect').select2();
 
-	// var si = new SelectInput('#myselect');
+                // //ADD
+                // $('#myselect').empty();
+                // for(var i = 0; i < 50; i++){
+                //     $('#myselect').append('<option value="'+i+'">Value '+i+'</option>');
+                // }
 
-	// $.post(
- //  		'./api/categories',
- //  		{action: 'listAll'},
- //  		function(res){
- //  			var data = JSON.parse(res).data;
- //  			data.map(function(item){
- //  				si.addItem(item.name, item.id);
- //  			});
- //  			callback();
- //  		});
+                //GET LABEL
+                // $("#myselect option:selected").text();
 
-	// function callback(){
-		
-	// }
+                //GET VALUE
+                // $('#myselect').val();
 
-	// si.setValue(6);
-	// console.log(si.getValue());
-	// console.log(si.getLabel());
+                //SET VALUE
+                // $('#myselect').val('37').trigger('change');
 
-
-	$(document).ready(function() {
-    	
-  //   	$('#myselect').select2();
-
-		// //ADD
-  //   	$('#myselect').empty();
-		// for(var i = 0; i< 50;i++){
-		// 	$('#myselect').append('<option value="'+i+'">Value '+i+'</option>');
-		// }
-
-		//GET LABEL
-		//$("#myselect option:selected").text();
-
-		//GET VALUE
-		//$('#myselect').val();
-
-		//SET VALUE
-		//$('#myselect').val('37').trigger('change');
-
-		//CLEAR
-		//$('#myselect').empty();
-
-
-	});
-</script>
-
+                //CLEAR
+                // $('#myselect').empty();
+            });
+        </script>
     </body>
 </html>
