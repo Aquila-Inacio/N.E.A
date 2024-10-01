@@ -18,16 +18,16 @@ $moduleLoader = new ModuleLoader();
   <title><?= $S['MainProjectName'] . ' ' . $S['ProjectName'] ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.min.css">
-  <!-- Bootstrap datetimepicker -->
-  <link rel="stylesheet" href="./lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+  <!-- Bootstrap via CDN 3.3.7 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Font Awesome via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap datetimepicker via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css">
   <!-- Bootstrap Toogle -->
-  <link rel="stylesheet" href="./lib/bootstrap-toggle/css/bootstrap-toggle.min.css">
-  <!-- Select2 -->
-  <link rel="stylesheet" href="./lib/select2/css/select2.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+  <!-- Select2 via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
   <!-- Pace -->
   <script src="./plugins/pace/pace.min.js"></script>
   <link href="./plugins/pace/pace.min.css" rel="stylesheet" />
