@@ -29,8 +29,8 @@ $moduleLoader = new ModuleLoader();
   <!-- Select2 via CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
   <!-- Pace -->
-  <script src="./plugins/pace/pace.min.js"></script>
-  <link href="./plugins/pace/pace.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/pace-js/pace.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js/themes/blue/pace-theme-minimal.css">
 
   <!-- Ionicons -->
   <!-- <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css"> -->
