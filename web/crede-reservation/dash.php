@@ -224,28 +224,29 @@ $moduleLoader->loadViews();
   var gidH = '<?= Group::getHumanGid($_SESSION['gid']) ?>';
 </script>
 <!-- jQuery 3 -->
-<script src="./lib/jquery/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->
-<script src="./lib/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="./lib/fastclick/fastclick.js"></script>
-<!-- imask -->
-<script src="./lib/imask/imask.min.js"></script>
-<!-- Moment -->
-<script src="./lib/moment/moment.min.js"></script>
-<script src="./lib/moment/pt-br.js"></script>
-<!-- bootstrap datetimepicker -->
-<script src="./lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-<!-- bootstrap toggle -->
-<script src="./lib/bootstrap-toggle/js/bootstrap-toggle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<!-- IMask -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/imask/6.4.3/imask.min.js"></script>
+<!-- Moment.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/pt-br.js"></script>
+<!-- Bootstrap datetimepicker -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+<!-- Bootstrap Toggle -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 <!-- Select2 -->
-<script src="./lib/select2/js/select2.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.full.min.js"></script>
 <!-- AdminLTE App -->
-<script src="./dist/js/adminlte.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="./dist/js/demo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/js/demo.js"></script>
+
 <!-- Useful lib -->
 <script src="./controllers/Useful.js"></script>
 <script src="./controllers/Orkidea/Component.js"></script>
