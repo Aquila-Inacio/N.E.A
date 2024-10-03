@@ -1,5 +1,6 @@
-<link rel="stylesheet" type="text/css" href="./lib/orkidea-schedule/schedule.min.css">
-<script src="./lib/orkidea-schedule/schedule.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/orkidea-schedule@latest/schedule.min.css">
+<script src="https://cdn.jsdelivr.net/npm/orkidea-schedule@latest/schedule.min.js"></script>
+
 <div id="view-table-schedule" class="box box-primary">
 
   <div class="box-header with-border">
