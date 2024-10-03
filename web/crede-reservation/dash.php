@@ -247,6 +247,19 @@ $moduleLoader->loadViews();
 <!-- AdminLTE for demo purposes -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.1.0/js/demo.js"></script>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+      var S = JSON.parse('<?= json_encode($S) ?>');
+      var gid = '<?= $_SESSION['gid']; ?>';
+      var gidH = '<?= Group::getHumanGid($_SESSION['gid']) ?>';
+
+      // Aqui você pode adicionar qualquer código que manipule o DOM
+      console.log(S, gid, gidH); // Verifique os valores para depuração
+  });
+</script>
+
+
+
 <!-- Useful lib -->
 <script src="./controllers/Useful.js"></script>
 <script src="./controllers/Orkidea/Component.js"></script>
